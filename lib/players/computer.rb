@@ -22,13 +22,13 @@ module Players
          board.cells[0] == ""
          "1"
       elsif
-         board.cells[] == ""
+         board.cells[2] == ""
          "3"  
       elsif
          board.cells[3] == ""
          "4"
       elsif
-         board.cells[4] == ""
+         board.cells[5] == ""
          "5"
       elsif
          board.cells[6] == ""
