@@ -11,6 +11,7 @@ def start
   Game.new(Players::Computer.new("X"), Game.new(Players::Computer.new("O")).play 
   puts "Would you like to play again?
   play_again
+  end
   when "1"
   Game.new(Players::Human.new("X"), Game.new(Players::Computer.new("O")).play 
   puts "Would you like to play again?
