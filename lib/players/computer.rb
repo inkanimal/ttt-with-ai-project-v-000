@@ -22,7 +22,7 @@ module Players
          board.cells[0] == ""
          "1"
       elsif
-         board.cells[2] == ""
+         board.cells[] == ""
          "3"  
       elsif
          board.cells[3] == ""
