@@ -16,7 +16,7 @@ module Players
   
   #move method has to search the board for open spaces and then determine which of those open spaces is the best move and move needs to be vailid(1-9)  
     def move(board)
-      if board.cells[0] == ""
+      if board.cells[4] == ""
          "1"
       elsif
          board.cells[1] == ""
