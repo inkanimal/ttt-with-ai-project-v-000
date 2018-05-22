@@ -3,4 +3,6 @@
 require_relative '../config/environment'
 puts "Welcome to Tic-Tac-Toe!"
 
-def
+def start 
+  puts "How many players
+end
