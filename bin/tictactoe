@@ -21,5 +21,10 @@ def start
   play_again
   else
   puts "That is an invalid entry!"
+  start
+  end
+end
+  
+  
   
 end
