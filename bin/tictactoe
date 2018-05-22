@@ -8,6 +8,8 @@ def start
   input = gets.strip
   case = input
   when "0"
-  Game.new(Players::Computer.new("X"), Game.new(Players::Computer.new("O")
+  Game.new(Players::Computer.new("X"), Game.new(Players::Computer.new("O")).play 
+  puts "Would you like to play again?
+  
   
 end
