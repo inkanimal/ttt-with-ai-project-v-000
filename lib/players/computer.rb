@@ -36,6 +36,9 @@ module Players
       elsif
          board.cells[7] == ""
          "8" 
+      elsif
+         board.cells[1] == ""
+         "2" 
       else
          board.cells[8] == ""
          "9"
