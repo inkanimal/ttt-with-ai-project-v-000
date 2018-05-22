@@ -8,6 +8,6 @@ def start
   input = gets.strip
   case = input
   when "0"
-  Game.new(Player
+  Game.new(Players::Computer 
   
 end
