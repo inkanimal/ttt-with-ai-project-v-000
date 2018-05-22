@@ -20,7 +20,7 @@ module Players
          "5"
       elsif
          board.cells[0] == ""
-         "2"
+         "1"
       elsif
          board.cells[2] == ""
          "3"  
