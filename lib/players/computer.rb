@@ -29,7 +29,7 @@ module Players
          "4"
       elsif
          board.cells[5] == ""
-         "5"
+         "6"
       elsif
          board.cells[6] == ""
          "7"
